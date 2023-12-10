@@ -1,7 +1,15 @@
 @media (prefers-color-scheme: dark) {
+    /* 
+        ダークモード
+    */
+
     body {
         background-color: #000;
         color: #fff;
+    }
+
+    .mailto {
+        color: #00f2ff
     }
 }
 
