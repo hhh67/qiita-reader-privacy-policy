@@ -19,6 +19,11 @@ h1 {
     opacity: 0.5;
 }
 
+h2,
+p {
+    font-family: 'メイリオ', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+}
+
 h2 {
     margin-bottom: 0.5rem;
 }
