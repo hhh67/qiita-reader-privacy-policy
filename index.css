@@ -6,6 +6,7 @@
     body {
         background-color: #000;
         color: #fff;
+        margin-bottom: 6vh;
     }
 
     .mailto {
@@ -13,14 +14,17 @@
     }
 }
 
-:root {
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
 h1 {
     font-family: 'Fragment Mono', monospace;
-    color: #49BE02
+    color: #49BE02;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    ;
+}
+
+main {
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 .example-text {
