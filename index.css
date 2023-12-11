@@ -1,8 +1,7 @@
+/* 
+    ダークモード
+*/
 @media (prefers-color-scheme: dark) {
-    /* 
-        ダークモード
-    */
-
     body {
         background-color: #000;
         color: #fff;
@@ -14,6 +13,30 @@
     }
 }
 
+/*
+    キャレットアニメーション
+*/
+@keyframes caret {
+
+    0%,
+    49% {
+        opacity: 0;
+    }
+
+    50%,
+    100% {
+        opacity: 1;
+    }
+}
+
+.caret {
+    display: inline-block;
+    animation: caret 1s infinite;
+}
+
+/*
+    レイアウト
+*/
 h1 {
     font-family: 'Fragment Mono', monospace;
     color: #49BE02;
